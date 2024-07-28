@@ -1,38 +1,23 @@
 import React from 'react'
 import pic from "../../public/new.png";
+import pro1 from "../../public/pro1.jpg";
+import nike from "../../public/nike.jpg";
+
+
 
 function Projects() {
     const cardItem=[
         {
             id:1,
-            logo:pic,
-            name:"MongoDB"
+            logo:pro1,
+            name:"Portfolio Website"
         },
         {
             id:2,
-            logo:pic,
-            name:"Express"
+            logo:nike,
+            name:"Nike Brand Page"
         },
-        {
-            id:3,
-            logo:pic,
-            name:"ReactJS"
-        },
-        {
-            id:4,
-            logo:pic,
-            name:"NodeJS"
-        },
-        {
-            id:5,
-            logo:pic,
-            name:"Python"
-        },
-        {
-            id:1,
-            logo:pic,
-            name:"Java"
-        }
+        
 
 
 
@@ -46,10 +31,10 @@ function Projects() {
                 {
                     cardItem.map(({id,logo,name})=>(
                         <div className="md:w-[300px] h-[300px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300" key={id}>
-                            <img src={pic} className="w-[120px] h-[120px] p-1 rounded-full bordeer-[4px]" alt="" />
+                            <img src={logo} className="w-[400px] h-[120px] p-1 rounded-full bordeer-[4px]" alt="" />
                             <div>
                                 <div className="px-2 font-bold texxt-xl mb-2">{name}</div>
-                                <p className="px-2 text-gray-700">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                <p className="px-2 text-gray-700">Explore My Projects By Folowing My Github Link</p>
                             </div>
                             <div className=" px-6 py-4 space-x-3 justify-around">
                                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded">Video</button>
