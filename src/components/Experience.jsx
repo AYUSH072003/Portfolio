@@ -48,7 +48,7 @@ function Experience() {
     <div name="Experience" className="max-w-screen-2xl container mx-auto px-4 md:px-20 mt-10">
         <div>
             <h1 className="text-3xl font-bold mb-5">Experience</h1>
-            <p className="">I've more than 2 years of experiance in below technologies.</p>
+            <p className=""> Hands-On experience in below technologies.</p>
             <div className="grid grid-cols-2 md:grid-cols-6 gap-7 my-3">
                 {
                     cardItem.map(({id,logo,name})=>(
