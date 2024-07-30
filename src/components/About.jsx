@@ -13,7 +13,7 @@ Driven by a love for innovation and creativity, I thrive on creating solutions t
         <div>
         <h1 className="text-green-500 font-semibold text-xl">Education</h1>
             <span>
-            <b> Bachelors of Technology (Computer Science & Engineering)</b>&ensp;<b className="text-red-500">(2021-2025)</b>
+            <b> Bachelor of Technology (Computer Science & Engineering)</b>&ensp;<b className="text-red-500">(2021-2025)</b>
             <p>United College of Engineering and Research, Prayagraj</p>
             </span>
             <br />
